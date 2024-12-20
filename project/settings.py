@@ -27,7 +27,7 @@ DEBUG = False
 
 # ALLOWED_HOSTS = []
 # ALLOWED_HOSTS = ['https://cli-auth.heroku.com/auth/cli/callback?code=c22b4625-6a85-4e43-bc59-25545e133751&state=c280cebc-c9d1-4a61-8683-891460d2e5e9', 'localhost']
-ALLOWED_HOSTS = ['https://priyabirvas.pythonanywhere.com/', 'www.myportfolio.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['priyabirvas.pythonanywhere.com/']
 
 
 
