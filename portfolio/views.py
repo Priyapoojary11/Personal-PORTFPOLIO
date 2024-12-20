@@ -6,6 +6,7 @@ def main(request):
     return render(request,'index.html')
 
 def contact_view(request):
+
     if request.method == 'POST':
         name = request.POST['name'] 
         email = request.POST['email'] 

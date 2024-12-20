@@ -74,7 +74,7 @@ body{
 }
 
 .logo span{
-    color: var(--backgrounds);
+    color: var(--main);
 }
 
 .footer{
@@ -88,21 +88,21 @@ body{
     height: 150px;
 }
 
-.avator{
+.avatar{
     text-align: center;
     padding: 20px;
 }
 
-.avator .text-typing{
+.avatar .text-typing{
     color: var(--white);
     padding: 15px;
 }
 
-.avator .icons{ 
+.avatar .icons{ 
     color: var(--backgrounds);
 }
 
-.avator .icons i{ 
+.avatar .icons i{ 
     font-size: 30px;
 }
 
@@ -118,6 +118,22 @@ button{
 }
 
 button:hover{
+    border: 1px solid var(--backgrounds);
+    background: var(--secondary);
+}
+
+.code{
+    border: 1px solid var(--secondary);
+    background-color: var(--main);
+    color: var(--white);
+    padding: 5px 10px;
+    margin: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: all --3s ease-in-out;
+}
+
+.code:hover{
     border: 1px solid var(--backgrounds);
     background: var(--secondary);
 }
@@ -176,7 +192,7 @@ button:hover{
     text-align: left;
 }
 
-.services{
+.github{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -184,13 +200,13 @@ button:hover{
     align-items: center;
 }
 
-.services .card{
+.github .card{
     margin: 20px;
-    text-align: center;
+    /* text-align: center; */
 
 }
 
-.services i{
+.github i{
     margin: 10px;
     font-size: 70px;
     color: var(--secondary);
